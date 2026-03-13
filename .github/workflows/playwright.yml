@@ -4,8 +4,8 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  schedule:
-    - cron: '50 * * * *'
+ # schedule:
+ #   - cron: '50 * * * *'
   workflow_dispatch:
 jobs:
   test:
